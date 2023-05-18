@@ -15,7 +15,7 @@ class Sortedlist:
     def append(self, data):
         node = Node(data)
         if self.head is None:
-            self.head = Node(data)
+            self.head = node
             self.tail = self.head
         elif data <= self.head.data:
             node.next = self.head
