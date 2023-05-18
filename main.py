@@ -49,13 +49,3 @@ class Sortedlist:
             print(cur.data, end = " ")
             cur = cur.next
         print()
-
-
-myList = Sortedlist()
-
-myList.append(10)
-myList.append(5)
-myList.append(15)
-myList.append(8)
-myList.print_list()
-print(myList.size)
